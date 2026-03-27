@@ -2,9 +2,7 @@
 
 > ✏️대용량 데이터 스트림 처리를 위한 분산 메시지 브로커인 Apache Kafka에 대한 내용을 정리합니다.
 
-* [Apache Kafka - Kafka Streams](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%A6%88)
-* [Apache Kafka - Kafka Connect]
-* [Apache Kafka - Kafka Topic & Producer & Consumer](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-Kafka-Topic-Producer-Consumer)
+* [Apache Kafka - Kafka Topic/Producer/Consumer](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-Kafka-Topic-Producer-Consumer)
 * [Apache Kafka - Producer Mechanism](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-Java-%EA%B8%B0%EB%B0%98-Producer-%EA%B5%AC%ED%98%84-%EB%B0%8F-Producer-%EB%82%B4%EB%B6%80-%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98-%EC%9D%B4%ED%95%B4)
 * [Apache Kafka - Consumer Mechanism](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-Java-%EA%B8%B0%EB%B0%98-Consumer-%EA%B5%AC%ED%98%84-%EB%B0%8F-Consumer-%EB%82%B4%EB%B6%80-%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98-%EC%9D%B4%ED%95%B4)
 * [Apache Kafka - Multi Node Kafka Cluster](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-%EB%A9%80%ED%8B%B0-%EB%85%B8%EB%93%9C-%EC%B9%B4%ED%94%84%EC%B9%B4-%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0)
@@ -16,13 +14,17 @@
 * [Apache Kafka - Group by & Mview](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-Group-by%EC%99%80-Mview)
 * [Apache Kafka - Join]
 * [Apache Kafka - Time & Windows]
+* [Apache Kafka - Connecting KSQLDB to Kafka Connect]
 * [Apache Kafka - Kafka Connect]
 * [Apache Kafka - JDBC Source Connector]
 * [Apache Kafka - JDBC Sink Connector]
 * [Apache Kafka - Debezium MySQL CDC Source Connector]
 * [Apache Kafka - Schema Registry]
+* [Apache Kafka - Differences Between RocksDB and In-Memory KeyValueStore in GlobalKTable](https://github.com/dnwls16071/Backend/wiki/Apache-Kafka-%E2%80%90-RocksDB-vs-InMemoryKeyValueStore)
+* [Apache Kafka - Kafka Streams](https://github.com/dnwls16071/Backend_Summary/wiki/Apache-Kafka-%E2%80%90-%EC%B9%B4%ED%94%84%EC%B9%B4-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%A6%88)
+* [Apache Kafka - Kafka Connect]
+* [Apache Kafka - Idempotent Producers and Transactional Producers & Consumers]
 * [Apache Kafka - CDC(Change Data Capture)]
-* [Apache Kafka - RocksDB vs InMemoryKeyValueStore](https://github.com/dnwls16071/Backend/wiki/Apache-Kafka-%E2%80%90-RocksDB-vs-InMemoryKeyValueStore)
 
 ## 📖 Spring Security🥇
 
@@ -72,9 +74,8 @@
 
 > ✏️대량 데이터의 일괄 처리와 스케줄링을 지원하는 배치 프레임워크인 Spring Batch에 대한 내용을 정리합니다.
 
-* [Spring Batch - Tasklet vs Chunk](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-Tasklet-vs-Chunk)
 * [Spring Batch - Introduction](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EC%86%8C%EA%B0%9C)
-* [Spring Batch - Batch Kickoff](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EC%8B%9C%EC%9E%91)
+* [Spring Batch - Batch Concept](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EC%8B%9C%EC%9E%91)
 * [Spring Batch - Batch Domain](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EB%8F%84%EB%A9%94%EC%9D%B8)
 * [Spring Batch - Job](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EC%8B%A4%ED%96%89(Job))
 * [Spring Batch - Step](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EC%8B%A4%ED%96%89(Step))
@@ -87,6 +88,10 @@
 * [Spring Batch - Multi Threads Processing](https://github.com/dnwls16071/Backend_Summary/wiki/Spring-Batch-%E2%80%90-%EC%8A%A4%ED%94%84%EB%A7%81-%EB%B0%B0%EC%B9%98-%EB%A9%80%ED%8B%B0-%EC%93%B0%EB%A0%88%EB%93%9C-%ED%94%84%EB%A1%9C%EC%84%B8%EC%8B%B1)
 * [Spring Batch - Batch Event Listener]
 * [Spring Batch - Batch Test]
+* [Spring Batch - File Processing]
+* [Spring Batch - Read and Write Operations in Relational Databases and NoSQL]
+* [Spring Batch - FaultTolerant & ItemStream]
+* [Spring Batch - Partitioning]
 
 ## 📖 Spring🥇
 
@@ -196,19 +201,22 @@
 
 > ✏️ 각광받는 Kotlin 언어에 대한 기본기를 정리합니다.
 
-* [Kotlin ‐ Kotlin에서 변수와 타입, 연산자를 다루는 방법](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98%EC%99%80-%ED%83%80%EC%9E%85,-%EC%97%B0%EC%82%B0%EC%9E%90%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EB%B0%A9%EB%B2%95)
-* [Kotlin - Kotlin에서 코드를 제어하는 방법](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%A0%9C%EC%96%B4%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
-* [Kotlin - Kotlin에서의 OOP](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C%EC%9D%98-OOP)
-* [Kotlin - Kotlin에서의 FP](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C%EC%9D%98-FP)
-* [Kotlin - Kotlin 특징](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin-%ED%8A%B9%EC%A7%95)
-* [Kotlin - Generic](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Generic)
-* [Kotlin - 지연과 위임](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%A7%80%EC%97%B0%EA%B3%BC-%EC%9C%84%EC%9E%84)
-* [Kotlin - 복잡한 함수형 프로그래밍](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EB%B3%B5%EC%9E%A1%ED%95%9C-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
-* [Kotlin - 연산자 오버로딩과 Kotlin DSL](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%97%B0%EC%82%B0%EC%9E%90-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9%EA%B3%BC-Kotlin-DSL)
-* [Kotlin - 어노테이션과 리플렉션](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EA%B3%BC-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98)
-* [Kotlin - 기타](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EA%B8%B0%ED%83%80)
-* [Kotlin - Coroutines 기초](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Coroutines-%EA%B8%B0%EC%B4%88)
-* [Kotlin - Coroutines 구성 요소와 동작 메커니즘](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Coroutines-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C%EC%99%80-%EB%8F%99%EC%9E%91-%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98)
+* [Kotlin - Variables, Types, and Operators in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C-%EB%B3%80%EC%88%98%EC%99%80-%ED%83%80%EC%9E%85,-%EC%97%B0%EC%82%B0%EC%9E%90%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EB%B0%A9%EB%B2%95)
+* [Kotlin - Control Flow in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%A5%BC-%EC%A0%9C%EC%96%B4%ED%95%98%EB%8A%94-%EB%B0%A9%EB%B2%95)
+* [Kotlin - Object-Oriented Programming in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C%EC%9D%98-OOP)
+* [Kotlin - Functional Programming in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin%EC%97%90%EC%84%9C%EC%9D%98-FP)
+* [Kotlin - Key Features of Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Kotlin-%ED%8A%B9%EC%A7%95)
+* [Kotlin - Generics in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Generic)
+* [Kotlin - Lazy Initialization and Delegation in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%A7%80%EC%97%B0%EA%B3%BC-%EC%9C%84%EC%9E%84)
+* [Kotlin - Advanced Functional Programming in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EB%B3%B5%EC%9E%A1%ED%95%9C-%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D)
+* [Kotlin - Operator Overloading and Kotlin DSL](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%97%B0%EC%82%B0%EC%9E%90-%EC%98%A4%EB%B2%84%EB%A1%9C%EB%94%A9%EA%B3%BC-Kotlin-DSL)
+* [Kotlin - Annotations and Reflection in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%96%B4%EB%85%B8%ED%85%8C%EC%9D%B4%EC%85%98%EA%B3%BC-%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98)
+* [Kotlin - Miscellaneous Topics in Kotlin](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EA%B8%B0%ED%83%80)
+
+## 📖 Coroutine🥈
+
+* [Kotlin - Coroutines Introduction](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Coroutines-%EA%B8%B0%EC%B4%88)
+* [Kotlin - Coroutines Component & Process Mechanism](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Coroutines-%EA%B5%AC%EC%84%B1-%EC%9A%94%EC%86%8C%EC%99%80-%EB%8F%99%EC%9E%91-%EB%A9%94%EC%BB%A4%EB%8B%88%EC%A6%98)
 * [Kotlin ‐ Dispatchers](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-Dispatchers)
 
 ## 📖 JPA(Java Persistence API)🥈
@@ -227,7 +235,7 @@
 * [JPA ‐ Solving Concurrency Issues with Pessimistic Locking](https://github.com/dnwls16071/Backend_Study_TIL/wiki/JPA-%E2%80%90-Pessimistic-Lock%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
 * [JPA ‐ Solving Concurrency Issues with Optimistic Locking](https://github.com/dnwls16071/Backend_Study_TIL/wiki/JPA-%E2%80%90-Optimistic-Lock%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
 * [JPA - Lazy Loading and Performance Optimization in JPA](https://github.com/dnwls16071/Backend_Study_TIL/wiki/API-%EA%B0%9C%EB%B0%9C-%E2%80%90-%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9%EA%B3%BC-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94)
-* [JPA - ManyToOne Important Things)](https://github.com/dnwls16071/Backend_Study_TIL/wiki/API-%EA%B0%9C%EB%B0%9C-%E2%80%90-%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9%EA%B3%BC-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94)
+* [JPA - ManyToOne Important Things](https://github.com/dnwls16071/Backend_Study_TIL/wiki/API-%EA%B0%9C%EB%B0%9C-%E2%80%90-%EC%A7%80%EC%97%B0%EB%A1%9C%EB%94%A9%EA%B3%BC-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94)
 * [JPA - OneToMany Important Things](https://github.com/dnwls16071/Backend_Study_TIL/wiki/API-%EA%B0%9C%EB%B0%9C-%E2%80%90-%EC%A3%BC%EB%AC%B8-%EC%A1%B0%ED%9A%8C-API-%EA%B0%9C%EB%B0%9C%EC%8B%9C-%EC%A3%BC%EC%9D%98%EC%82%AC%ED%95%AD(%EC%9D%BC%EB%8C%80%EB%8B%A4))
 * [JPA - OSIV](https://github.com/dnwls16071/Backend_Study_TIL/wiki/API-%EA%B0%9C%EB%B0%9C-%E2%80%90-OSIV)
 
@@ -275,19 +283,27 @@
 
 > ✏️컨테이너화된 애플리케이션의 자동 배포, 확장, 관리를 지원하는 오픈소스 컨테이너 오케스트레이션 플랫폼인 Kubernetes에 대한 내용을 정리합니다.
 
-* [Kubernetes - Pod](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-%ED%8C%8C%EB%93%9C(Pod))
-* [Kubernetes - Deployment & Service](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-%EB%94%94%ED%94%8C%EB%A1%9C%EC%9D%B4%EB%A8%BC%ED%8A%B8(Deployment),-%EC%84%9C%EB%B9%84%EC%8A%A4(Service))
-* [Kubernetes - ConfigMap](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-%EC%BB%A8%ED%94%BC%EA%B7%B8%EB%A7%B5(ConfigMap))
-* [Kubernetes - Secret](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-%EC%8B%9C%ED%81%AC%EB%A6%BF(Secret))
-* [Kubernetes - Volume](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-%EB%B3%BC%EB%A5%A8(Volume))
-* [Kubernetes - Deploy(feat. AWS EC2 & Kubernetes)](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-AWS-EC2-&-Kubernetes%EB%A1%9C-%EC%84%9C%EB%B2%84-%EB%B0%B0%ED%8F%AC)
-* [Kubernetes - Deploy(feat. AWS EKS)](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Kubernetes-%E2%80%90-AWS-EKS-%EC%84%9C%EB%B2%84-%EB%B0%B0%ED%8F%AC)
+* [Kubernetes - Probe]
+* [Kubernetes - ConfigMap & Secret]
+* [Kubernetes - PV/PVC & Deployment & Service & HPA]
+* [Kubernetes - Blue/Green Deployment]
+* [Kubernetes - Helm & Kustomize]
+* [Kubernetes - ArgoCD]
+* [Kubernetes - Pod]
+* [Kubernetes - Ingress & Nginx Application]
+* [Kubernetes - Node Scheduling]
+* [Kubernetes - Monitoring]
+* [Kubernetes - Logging]
 
 ## 📖 CI/CD(Continuous Integration/Continuous Deploy)🥈
 
 > ✏️CI/CD에 대한 내용을 정리합니다.
 
 * [Github Actions - Github Actions](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Github-Actions-%E2%80%90-Github-Actions-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%EC%A0%95%EB%A6%AC)
+* [Jenkins - Jenkins + IaC]
+* [Jenkins - Advanced Jenkins Pipeline]
+* [Jenkins - Advanced Jenkins SonarQube & Multi nodes]
+* [Jenkins - Jenkins Appendix]
 
 ## 📖 Redis🥈
 
@@ -311,23 +327,45 @@
 * [Redis - Geospatial](https://github.com/dnwls16071/Backend_Summary/wiki/Redis-%E2%80%90-Geospatial)
 * [Redis - DAU Counting Application](https://github.com/dnwls16071/Backend_Summary/wiki/Redis-%E2%80%90-DAU-%EC%B9%B4%EC%9A%B4%ED%8C%85-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0)
 * [Redis - Session Management Application](https://github.com/dnwls16071/Backend_Summary/wiki/Redis-%E2%80%90-%EC%84%B8%EC%85%98-%EA%B4%80%EB%A6%AC-%EC%A0%80%EC%9E%A5-%EC%9A%A9%EB%8F%84)
+* [Redis - Redis Transaction ACID]
+* [Redis - Redis Data Persistence]
+* [Redis - Redis Keys Management]
+* [Redis - Decoupling microservices with Redis Pub/Sub]
+* [Redis - Redis Pipelining & RTT(Round Trip Time)]
+* [Redis - Redis Streams]
 
 ## 📖 MySQL🥈
 
 > ✏️관계형 데이터베이스 관리 시스템(RDBMS) 중 하나로, 안정성과 확장성이 뛰어난 오픈소스 데이터베이스인 MySQL에 대한 내용을 정리합니다.
 
 * [MySQL ‐ Solving Concurrency Problems using Database-Level Locking](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Spring-Boot-%E2%80%90-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%9D%B4%EC%8A%88%EB%A5%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A1%9C-%ED%95%B4%EA%B2%B0%ED%95%98%EA%B8%B0)
-* [MySQL ‐ Index](https://github.com/dnwls16071/Backend_Study_TIL/wiki/MySQL-%E2%80%90-%EC%9D%B8%EB%8D%B1%EC%8A%A4(Index)-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90)
-* [MySQL ‐ Explain](https://github.com/dnwls16071/Backend_Study_TIL/wiki/MySQL-%E2%80%90-%EC%8B%A4%ED%96%89-%EA%B3%84%ED%9A%8D(EXPLAIN)%EC%9D%84-%ED%99%9C%EC%9A%A9%ED%95%B4-%EC%84%B1%EB%8A%A5-%EC%A0%80%ED%95%98-%EC%A7%80%EC%A0%90-%EC%B0%BE%EA%B8%B0)
-* [MySQL ‐ SQL Tuning](https://github.com/dnwls16071/Backend_Study_TIL/wiki/MySQL-%E2%80%90-SQL%EB%AC%B8-%ED%8A%9C%EB%8B%9D-%EC%8B%A4%EC%8A%B5)
-* [MySQL ‐ Named Lock](https://github.com/dnwls16071/Backend_Study_TIL/wiki/MySQL-%E2%80%90-Named-Lock(%EB%84%A4%EC%9E%84%EB%93%9C-%EB%9D%BD))
-* [MySQL ‐ Optimizer](https://github.com/dnwls16071/Backend_Summary/wiki/MySQL-%E2%80%90-%EC%98%B5%ED%8B%B0%EB%A7%88%EC%9D%B4%EC%A0%80%EC%99%80-%ED%9E%8C%ED%8A%B8)
+* [MySQL - Checking DB Metrics with SQL Queries]
+* [MySQL - Data Modeling for Practical Service Development]
+* [MySQL - Basic CRUD in MySQL]
+* [MySQL - Exploring Inside MySQL]
+* [MySQL - MySQL Transaction & Locking System]
+* [MySQL - System Design at the Operational Level]
+* [MySQL - Why You Should Use MySQL: JOIN]
+* [MySQL - Must-Know SQL Anti-Patterns]
+* [MySQL - Learning Data Modeling Through Practical Examples]
+* [MySQL - Foreign Key & Strategic Patterns]
+* [MySQL - Advanced Topics in MySQL]
+* [MySQL - Multi Column Index]
+* [MySQL - Covering Index]
+* [MySQL - ORDER BY]
+* [MySQL - INSERT]
+* [MySQL - AUTO_INCREMENT_LOCK]
+* [MySQL - Index Dive Using In Query]
+* [MySQL - MySQL LockType]
+* [MySQL - DeadLock Case]
+* [MySQL - NoOffset For Query Tuning]
+* [MySQL - Skip Locked For Session]
 
 ## 📖 Test🥈
 
 > ✏️소프트웨어의 기능과 품질을 검증하기 위한 다양한 테스트 기법과 도구에 대한 내용을 정리합니다.
 
-* [Test - Load Testing Fundamentals]
+* [Test - Load Testing Fundamentals](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Test-%E2%80%90-Stress-Test(%EB%B6%80%ED%95%98-%ED%85%8C%EC%8A%A4%ED%8A%B8))
 * [Test - Diagnosing Bottlenecks via Load Testing]
 * [Test - Performance Tuning: Resolving Bottlenecks]
 * [Test - JUnit5](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Test-%E2%80%90-JUnit5)
@@ -365,13 +403,13 @@
 * [Database - Normalization](https://github.com/Code-Laboratory/Backend/wiki/Database-%E2%80%90-%EC%A0%95%EA%B7%9C%ED%99%94)
 * [Database - Physical Data Modeling](https://github.com/Code-Laboratory/Backend/wiki/Database-%E2%80%90-%EB%AC%BC%EB%A6%AC%EC%A0%81-%EB%AA%A8%EB%8D%B8%EB%A7%81)
 * [Database - Common Code Design](https://github.com/Code-Laboratory/Backend/wiki/Database-%E2%80%90-%EA%B3%B5%ED%86%B5-%EC%BD%94%EB%93%9C-%EC%84%A4%EA%B3%84)
-* [Database - Hierarchical Structure Design]
-* [Database - Data Change History Design]
-* [Database - SOFT DELETE]
-* [Database - Statistics Table Design]
-* [Database - Inheritance Relationship Design]
-* [Database - Entity-Attribute-Value (EAV) Model]
-* [Database - JSON Schema Design]
+* [Database - Hierarchical Structure Design](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%EA%B3%84%EC%B8%B5-%EA%B5%AC%EC%A1%B0-%EC%84%A4%EA%B3%84)
+* [Database - Data Change History Design](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%B3%80%EA%B2%BD-%EC%9D%B4%EB%A0%A5-%EC%84%A4%EA%B3%84)
+* [Database - SOFT DELETE](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%EB%AC%BC%EB%A6%AC-%EC%82%AD%EC%A0%9C%EC%99%80-%EB%85%BC%EB%A6%AC-%EC%82%AD%EC%A0%9C)
+* [Database - Statistics Table Design](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%ED%86%B5%EA%B3%84-%ED%85%8C%EC%9D%B4%EB%B8%94-%EC%84%A4%EA%B3%84)
+* [Database - Inheritance Relationship Design](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%EC%83%81%EC%86%8D-%EA%B4%80%EA%B3%84-%EC%84%A4%EA%B3%84)
+* [Database - Entity-Attribute-Value (EAV) Model](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-%EB%8F%99%EC%A0%81-%EC%84%A4%EA%B3%84(EAV))
+* [Database - JSON Schema Design](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Database-%E2%80%90-Json-%EC%84%A4%EA%B3%84)
 
 ## 📖 Nginx🥉
 
@@ -383,6 +421,49 @@
 * [Nginx ‐ Implementing HTTPS with Nginx](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Nginx-%E2%80%90-Nginx%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-HTTPS-%EC%A0%81%EC%9A%A9%EC%8B%9C%ED%82%A4%EA%B8%B0)
 * [Nginx ‐ Backend Deployment via Nginx Reverse Proxy](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Nginx-%E2%80%90-%EB%A6%AC%EB%B2%84%EC%8A%A4-%ED%94%84%EB%A1%9D%EC%8B%9C(Reverse-Proxy)%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EC%84%9C%EB%B2%84-%EB%B0%B0%ED%8F%AC)
 * [Nginx ‐ Load Balancing with Nginx](https://github.com/dnwls16071/Backend_Study_TIL/wiki/Nginx-%E2%80%90-Nginx%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%9C-%EB%A1%9C%EB%93%9C-%EB%B0%B8%EB%9F%B0%EC%84%9C)
+* [Nginx - Advanced Concept]
+* [Nginx - Advanced Reverse Proxy]
+
+## 📖 MicroService Architecture🥈
+
+> ✏️MSA 환경에서 사용되는 요소들에 대해서 공부한 내용을 정리합니다.
+
+* [MicroService Architecture - DeComposition Patterns](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/MicroService-Design-Pattern-%E2%80%90-DeComposition-Patterns)
+* [MicroService Architecture - Service Communications Patterns](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/MicroService-Design-Pattern-%E2%80%90-Service-Communications-Patterns)
+* [MicroService Architecture - API Gateway Patterns]
+* [MicroService Architecture - Asynchronous Communications Patterns]
+* [MicroService Architecture - Data Management Patterns]
+* [MicroService Architecture - CQRS Patterns]
+* [MicroService Architecture - Distributed Transactions]
+* [MicroService Architecture - Event-Driven Architecture]
+* [MicroService Architecture - Resilience & Observability and Monitoring]
+* [MicroService Architecture - Security Patterns]
+* [MicroService Architecture - Testing Strategies]
+* [MicroService Architecture - Scalability & Caching Patterns]
+* [MicroService Architecture - Deployment Patterns]
+* [MicroService Architecture - Serverless Architecture]
+* [MicroService Architecture - GraphQL]
+* [MicroService Architecture - Evolution of Distributed Systems and Their Drawbacks]
+* [MicroService Architecture - Protocol Buffers]
+* [MicroService Architecture - gRPC Communication Patterns]
+* [MicroService Architecture - gRPC Optimization Strategies and Implementation]
+
+## 📖 Apache Flink🥈
+
+* [Apache Flink - Apache Flink Architecture]
+* [Apache Flink - Stream Processing]
+* [Apache Flink - Data Stream API & Window]
+* [Apache Flink - State Management]
+
+## 📖 Monitoring🥈
+
+* [Monitoring - Log Concept]
+* [Monitoring - Log Level & Filter]
+* [Monitoring - Logback]
+* [Monitoring - Log Collection with ELK Stack]
+* [Monitoring - Log Monitoring with Kibana]
+* [Monitoring - Building a Monitoring System with Spring Boot Actuator]
+* [Monitoring - Server Monitoring with Prometheus and Grafana with Discord Alerts]
 
 ## 📖 Effective Java 3/E🥈
 
@@ -468,11 +549,10 @@
 * [외부 연동이 문제일 때 살펴봐야 할 것들](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EC%99%B8%EB%B6%80-%EC%97%B0%EB%8F%99%EC%9D%B4-%EB%AC%B8%EC%A0%9C%EC%9D%BC-%EB%95%8C-%EC%82%B4%ED%8E%B4%EB%B4%90%EC%95%BC-%ED%95%A0-%EA%B2%83%EB%93%A4)
 * [비동기 연동, 언제 어떻게 써야 할까](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%97%B0%EB%8F%99,-%EC%96%B8%EC%A0%9C-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%8D%A8%EC%95%BC-%ED%95%A0%EA%B9%8C)
 * [동시성, 데이터가 꼬이기 전에 잡아야 한다](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EB%8F%99%EC%8B%9C%EC%84%B1,-%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B0%80-%EA%BC%AC%EC%9D%B4%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9E%A1%EC%95%84%EC%95%BC-%ED%95%9C%EB%8B%A4)
-* [IO 병목, 어떻게 해결하지⭐](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-IO-%EB%B3%91%EB%AA%A9,-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EC%A7%80)
+* [IO 병목, 어떻게 해결하지](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-IO-%EB%B3%91%EB%AA%A9,-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EC%A7%80)
 * [실무에서 꼭 필요한 보안 지식](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EC%8B%A4%EB%AC%B4%EC%97%90%EC%84%9C-%EA%BC%AD-%ED%95%84%EC%9A%94%ED%95%9C-%EB%B3%B4%EC%95%88-%EC%A7%80%EC%8B%9D)
-* [최소한 알고 있어야 할 서버 지식](https://github.com/dnwls16071/Backend_Summary/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EC%B5%9C%EC%86%8C%ED%95%9C-%EC%95%8C%EA%B3%A0-%EC%9E%88%EC%96%B4%EC%95%BC-%ED%95%A0-%EC%84%9C%EB%B2%84-%EC%A7%80%EC%8B%9D)
-* [모르면 답답해지는 네트워크 기초]
-* [자주 쓰는 서버 구조와 설계 패턴]
+* [모르면 답답해지는 네트워크 기초](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EB%AA%A8%EB%A5%B4%EB%A9%B4-%EB%8B%B5%EB%8B%B5%ED%95%B4%EC%A7%80%EB%8A%94-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%EA%B8%B0%EC%B4%88)
+* [자주 쓰는 서버 구조와 설계 패턴](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/%EC%A3%BC%EB%8B%88%EC%96%B4-%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%95%8C%EC%95%84%EC%95%BC-%ED%95%A0-%EC%8B%A4%EB%AC%B4-%EC%A7%80%EC%8B%9D-%E2%80%90-%EC%9E%90%EC%A3%BC-%EC%93%B0%EB%8A%94-%EC%84%9C%EB%B2%84-%EA%B5%AC%EC%A1%B0%EC%99%80-%EC%84%A4%EA%B3%84-%ED%8C%A8%ED%84%B4)
 
 ## 📖 Kotlin Academy - 핵심편🥈
 
@@ -508,8 +588,20 @@
 * [Kotlin ‐ 변수의 스코프를 최소화하라](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EB%B3%80%EC%88%98%EC%9D%98-%EC%8A%A4%EC%BD%94%ED%94%84%EB%A5%BC-%EC%B5%9C%EC%86%8C%ED%99%94%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-4%5D)
 * [Kotlin ‐ 인수와 상태에 대한 기대치를 명시하라](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%9D%B8%EC%88%98%EC%99%80-%EC%83%81%ED%83%9C%EC%97%90-%EB%8C%80%ED%95%9C-%EA%B8%B0%EB%8C%80%EC%B9%98%EB%A5%BC-%EB%AA%85%EC%8B%9C%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-5%5D)
 * [Kotlin ‐ 사용자 정의 오류보다 표준 오류를 선호하라](https://github.com/dnwls16071/Backend_Summary/wiki/Kotlin-%E2%80%90-%EC%82%AC%EC%9A%A9%EC%9E%90-%EC%A0%95%EC%9D%98-%EC%98%A4%EB%A5%98%EB%B3%B4%EB%8B%A4-%ED%91%9C%EC%A4%80-%EC%98%A4%EB%A5%98%EB%A5%BC-%EC%84%A0%ED%98%B8%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-6%5D)
+* [Kotlin ‐ 결과가 없을 가능성이 있는 경우 널 가능 또는 Result 반환 타입을 선호하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EA%B2%B0%EA%B3%BC%EA%B0%80-%EC%97%86%EC%9D%84-%EA%B0%80%EB%8A%A5%EC%84%B1%EC%9D%B4-%EC%9E%88%EB%8A%94-%EA%B2%BD%EC%9A%B0-%EB%84%90-%EA%B0%80%EB%8A%A5-%EB%98%90%EB%8A%94-Result-%EB%B0%98%ED%99%98-%ED%83%80%EC%9E%85%EC%9D%84-%EC%84%A0%ED%98%B8%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-7%5D)
+* [Kotlin ‐ use를 사용하여 리소스를 닫아라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-use%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EB%A6%AC%EC%86%8C%EC%8A%A4%EB%A5%BC-%EB%8B%AB%EC%95%84%EB%9D%BC%5BEffective-Kotlin-Item-8%5D)
+* [Kotlin ‐ 단위 테스트를 작성하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-9%5D)
+* [Kotlin ‐ 가독성을 목표로 설계하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EA%B0%80%EB%8F%85%EC%84%B1%EC%9D%84-%EB%AA%A9%ED%91%9C%EB%A1%9C-%EC%84%A4%EA%B3%84%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-10%5D)
+* [Kotlin ‐ 연산자의 의미는 함수의 이름과 일치해야 한다](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EC%97%B0%EC%82%B0%EC%9E%90%EC%9D%98-%EC%9D%98%EB%AF%B8%EB%8A%94-%ED%95%A8%EC%88%98%EC%9D%98-%EC%9D%B4%EB%A6%84%EA%B3%BC-%EC%9D%BC%EC%B9%98%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4%5BEffective-Kotlin-Item-11%5D)
+* [Kotlin ‐ 가독성을 높이려면 연산자를 사용하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EA%B0%80%EB%8F%85%EC%84%B1%EC%9D%84-%EB%86%92%EC%9D%B4%EB%A0%A4%EB%A9%B4-%EC%97%B0%EC%82%B0%EC%9E%90%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-12%5D)
+* [Kotlin ‐ 타입 명시를 고려하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%ED%83%80%EC%9E%85-%EB%AA%85%EC%8B%9C%EB%A5%BC-%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-13%5D)
+* [Kotlin ‐ 리시버를 명시적으로 참조하라](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%EB%A6%AC%EC%8B%9C%EB%B2%84%EB%A5%BC-%EB%AA%85%EC%8B%9C%EC%A0%81%EC%9C%BC%EB%A1%9C-%EC%B0%B8%EC%A1%B0%ED%95%98%EB%9D%BC%5BEffective-Kotlin-Item-14%5D)
+* [Kotlin ‐ 프로퍼티는 동작이 아닌 상태를 나타내야 한다](https://github.com/Code-Laboratory/Backend-PlayGround/wiki/Kotlin-%E2%80%90-%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%8A%94-%EB%8F%99%EC%9E%91%EC%9D%B4-%EC%95%84%EB%8B%8C-%EC%83%81%ED%83%9C%EB%A5%BC-%EB%82%98%ED%83%80%EB%82%B4%EC%95%BC-%ED%95%9C%EB%8B%A4%5BEffective-Kotlin-Item-15%5D)
 
 ## 📖 가상 면접 사례로 배우는 대규모 시스템 설계 기초🥈
 
 
 ## 📖 Clean Code🥈
+
+
+## 📖 Side Project🥉
